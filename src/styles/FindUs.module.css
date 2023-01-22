@@ -1,0 +1,114 @@
+.findUsHeader {
+    text-align: center;
+    margin-top: 9.6rem;
+    font-size: 3rem;
+    margin-bottom: 9.6rem;
+}
+
+.findUsContainer {
+    display: flex;
+    justify-content: space-between;
+    gap: 10%;
+    padding-left: 7.6rem;
+    padding-right: 7.6rem;
+    position: relative;
+}
+
+.button {
+    all: unset;
+    padding: 2rem 1.2rem;
+    background: #424242;
+    color: white;
+    width: 17.3rem;
+    height: 5.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    transition: 0.5s;
+}
+
+.button:hover {
+    color: black;
+    background-color: #4787B5;
+}
+
+.leftContainer {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    gap: 9.3rem;
+    position: relative;
+}
+
+.phoneNumber {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.captionContainer {
+    position: absolute;
+}
+
+#callCaption {
+    top: -7rem;
+    right: 0;
+}
+
+#onlineCaption {
+    top:4.5rem;
+    right:-1.7rem;
+}
+
+#visitCaptionBig {
+    right: 4rem;
+    top: -7.8rem;
+}
+
+#visitCaptionSmall {
+    display: none;
+}
+
+.arrow {
+    width: 5.25rem;
+    height: 5.9rem;
+}
+
+.mapContainer {
+    width: 100%;
+    height: 35rem;
+}
+
+.mapBig {
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 750px) {
+    .findUsContainer {
+        flex-direction: column;
+        gap: 9.5rem;
+    }
+
+    .mapContainer {
+        width: 100%;
+        margin: auto;
+        display: flex;
+        height: 25rem;
+    }
+
+    .findUsContainer {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    #visitCaptionBig {
+        display: none;
+    }
+
+    #visitCaptionSmall {
+        display: block;
+        bottom: -9.5rem;
+        right: 2rem;
+    }
+}

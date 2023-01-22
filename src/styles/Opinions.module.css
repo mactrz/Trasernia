@@ -1,0 +1,62 @@
+#redRect {
+    height: 11.25rem;
+    width: 17.5rem;
+    position: absolute;
+    background-color: #D2595B;
+    z-index: -2;
+    transform: rotate(4.72deg);
+}
+
+#blueRect {
+    height: 11.25rem;
+    width: 17.5rem;
+    position: absolute;
+    z-index: -1;
+    background-color: #4787B5;
+    transform: rotate(2.36deg);
+}
+
+.opinionsHeader {
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 9.6rem;
+    margin-bottom: 9.6rem;
+}
+
+.opinionsContainer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.review {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 11.25rem;
+    width: 17.5rem;
+    background-color: #424242;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+.reviewUser {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    width: 80%;
+    padding-top: 20%;
+    position: absolute;
+    bottom: 1rem;
+}
+
+@media screen and (max-width: 750px) {
+    .opinionsContainer {
+        flex-direction: column;
+        align-items: center;
+        gap: 5.25rem;
+    }
+}

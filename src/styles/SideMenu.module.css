@@ -1,0 +1,14 @@
+.sideMenu {
+    padding-left: 3rem;
+    padding-top: 4rem;
+    width: 50vw;
+    height: 100%;
+    right: 0;
+    background-color: white;
+    z-index: 5;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    transition: 1s;
+    gap: 2rem;
+}

@@ -1,0 +1,34 @@
+#footer {
+    height: 12.6rem;
+    width: 100%;
+    background-color: #424242;
+    margin-top: 9.6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.iconContainer {
+    display: flex;
+    gap: 2rem;
+}
+
+.footerHeader {
+    color: white;
+    margin-top: 2rem;
+    font-size: 2rem;
+
+}
+
+.credit {
+    color: white;
+    opacity: 0.3;
+    margin-top: 0.7rem;
+    font-size: 1rem;
+}
+
+.icon {
+    width: 2rem;
+    height: 2rem;
+}
