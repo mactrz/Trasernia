@@ -16,7 +16,7 @@ export default function Opinions( props: Props ) {
             <h1 className={styles.opinionsHeader}>Poczytaj opinie naszych klientów</h1>
             <div className={styles.opinionsContainer}>
                 <div className={`${styles.review} ${poppins4.className}`}>
-                        <p className={styles.reviewText}>Bardzo mi się podobało, wreszcie widzę swojego penisza</p>
+                        <p className={styles.reviewText}>Suoer mega fryzik wyszedł!</p>
                         <div className={`${styles.reviewUser}`}>
                             <p className={`${styles.reviewerName} ${poppins5.className}`}>Adam</p>
                             <div className={styles.reviewerScore}>
