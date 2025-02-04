@@ -16,7 +16,7 @@ export default function Opinions( props: Props ) {
             <h1 className={styles.opinionsHeader}>Poczytaj opinie naszych klientów</h1>
             <div className={styles.opinionsContainer}>
                 <div className={`${styles.review} ${poppins4.className}`}>
-                        <p className={styles.reviewText}>Suoer mega fryzik wyszedł!</p>
+                        <p className={styles.reviewText}>Super mega fryzik wyszedł!</p>
                         <div className={`${styles.reviewUser}`}>
                             <p className={`${styles.reviewerName} ${poppins5.className}`}>Adam</p>
                             <div className={styles.reviewerScore}>
@@ -32,7 +32,7 @@ export default function Opinions( props: Props ) {
                 </div>
 
                 <div className={styles.review}>
-                        <p className={styles.reviewText}>Kocham to miejsce, wincyj!!!</p>
+                        <p className={styles.reviewText}>Kocham to miejsce, jeszcze przyjdę!!!</p>
                         <div className={styles.reviewUser}>
                             <p className={styles.reviewerName}>Adam</p>
                             <div className={styles.reviewerScore}>
@@ -48,7 +48,7 @@ export default function Opinions( props: Props ) {
                 </div>
 
                 <div className={styles.review}>
-                        <p className={styles.reviewText}>Kocham to miejsce, wincyj!!!</p>
+                        <p className={styles.reviewText}>Teraz to jestem GIGACHAD</p>
                         <div className={styles.reviewUser}>
                             <p className={styles.reviewerName}>Adam</p>
                             <div className={styles.reviewerScore}>
